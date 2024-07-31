@@ -21,13 +21,6 @@ class _HomeScreenState extends State<HomeScreen> {
         padding: const EdgeInsets.all(8),
         children: const <Widget>[
           CustomContainer(
-            image: AssetImage('assets/argentina.jpg'),
-            countryName: 'Argentina',
-            continent: 'South America',
-            language: 'Spanish',
-          ),
-          SizedBox(height: 15),
-          CustomContainer(
             image: AssetImage('assets/Flag_of_the_Philippines.svg.jpg'),
             countryName: 'Philippines',
             continent: 'Asia',
@@ -35,10 +28,17 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           SizedBox(height: 15),
           CustomContainer(
-            image: AssetImage('assets/Flag_of_Japan.jpg'),
-            countryName: 'Japan',
+            image: AssetImage('assets/China.png'),
+            countryName: 'China',
             continent: 'Asia',
-            language: 'Japanese',
+            language: 'Mandarin',
+          ),
+          SizedBox(height: 15),
+          CustomContainer(
+            image: AssetImage('assets/India.png'),
+            countryName: 'India',
+            continent: 'Asia',
+            language: 'Hindi',
           ),
           SizedBox(height: 15),
           CustomContainer(
@@ -46,6 +46,13 @@ class _HomeScreenState extends State<HomeScreen> {
             countryName: 'Indonesia',
             continent: 'Asia',
             language: 'Indonesian',
+          ),
+          SizedBox(height: 15),
+          CustomContainer(
+            image: AssetImage('assets/Flag_of_Japan.jpg'),
+            countryName: 'Japan',
+            continent: 'Asia',
+            language: 'Japanese',
           ),
           SizedBox(height: 15),
           CustomContainer(
@@ -70,17 +77,10 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           SizedBox(height: 15),
           CustomContainer(
-            image: AssetImage('assets/India.png'),
-            countryName: 'India',
-            continent: 'Asia',
-            language: 'Hindi',
-          ),
-          SizedBox(height: 15),
-          CustomContainer(
-            image: AssetImage('assets/China.png'),
-            countryName: 'China',
-            continent: 'Asia',
-            language: 'Mandarin',
+            image: AssetImage('assets/argentina.jpg'),
+            countryName: 'Argentina',
+            continent: 'South America',
+            language: 'Spanish',
           ),
           SizedBox(height: 15),
           CustomContainer(
